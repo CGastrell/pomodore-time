@@ -110,7 +110,7 @@ $(document).keyup(function (e) {
 
 function loadSettings() {
   if (localStorage["pomflag"] != 1) {
-    localStorage.setItem("pomodoro", 1);
+    localStorage.setItem("pomodoro", 25);
     localStorage.setItem("shortbreak", 5);
     localStorage.setItem("longbreak", 10);
     localStorage.setItem("pomflag", 1);
